@@ -42,22 +42,48 @@
 } */
 
 body{
-  background-color: #94A3B8;
+  background-color:whitesmoke;
 }
 
-.home {
-  color: white;
-  min-height: 100vh;
+.intro {
+  margin-top: 10rem;
+  font-family: 'Aptos',serif;
+  justify-content: center;
+  gap:10rem;
+  display: flex;
+}
+
+.intro h1 {
+  font-size:50px;
+}
+.intro p1{
+  font-size:30px;
+}
+
+.intro img {         
+  border-radius: 30px;         /* optional: rounded corners */
+  object-fit: cover;
 }
 
 .container-fluid {
-  background-color: #1e293b; /* dark blue */
+  background-color: whitesmoke; 
 }
 .navbar .nav-link:hover {
-  color: #38bdf8;          /* sky blue */
+  color: grey;          
 }
 
 .navbar .nav-link {
-  color: #ffffff;          /* white text */
+  color: black;       
+  font-size: 30px;
+  font-family: 'Aptos',serif;
+  text-decoration-style: bold;
   font-weight: 500;
+}
+
+.navbar-nav{
+  gap:40px;
+  display: flex;
+}
+.custom-navbar{
+  background-color: whitesmoke;
 }

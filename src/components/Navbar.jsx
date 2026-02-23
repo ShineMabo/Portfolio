@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import "/src/App.css";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -16,7 +16,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ma-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
@@ -39,7 +39,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link " href="#">
-                Contact Me
+                Resume
               </a>
             </li>
           </ul>
